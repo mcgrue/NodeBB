@@ -159,6 +159,8 @@ Minifier.js.bundle = async function (data, fork) {
 
 actions.buildCSS = async function buildCSS(data) {
 	let css = '';
+	
+	console.warn("PATHS ", data.paths)
 	try {
 		const scssOutput = await sass.compileStringAsync(data.source, {
 			loadPaths: data.paths,

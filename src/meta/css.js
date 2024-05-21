@@ -71,7 +71,7 @@ function boostrapImport(themeData) {
 		'@import "bootstrap/scss/functions";',
 
 		// overrides for bs5 variables
-		'@import "./scss/overrides";', // this file is in the themes scss folder
+		// '@import "./scss/overrides";', // this file is in the themes scss folder
 		'@import "overrides.scss";', // core scss overrides
 
 		// bs files
